@@ -1,6 +1,7 @@
 body{
     background-color: rgb(0, 0, 0);
-    color: rgb(140, 167, 209);
+    color: rgb(126, 176, 255);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
     .headings{
         color: rgb(170, 137, 96);
@@ -9,12 +10,14 @@ body{
         color: rgb(233, 233, 233);
     }
     a:hover{
-        color: coral;
+        color: rgb(201, 201, 201);
+        background-color: #334a4b;
     }
-    a{
-        color:rgb(167, 95, 201);
+
+    .tableBody{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: bisque;
     }
-    
     hr{
         background-color: rgb(0, 0, 0);
         /* border-style: none; */
@@ -31,4 +34,16 @@ body{
     }
     #work{
         color: rgb(112, 202, 165);
+    }
+    .btn {
+        background-color: #084042;
+        border-radius: 5px;
+        padding: 5px 10px 5px 10px;
+        font-size: 15px;
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+    .certificates{
+        text-decoration: none;
+        color: rgb(126, 176, 255);
     }
